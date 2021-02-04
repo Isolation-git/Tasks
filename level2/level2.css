@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 20px 0;
+}
+
+h2 {
+    margin: 15px 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul,
+ol {
+    margin-left: 40px;
+}
+
+ol li {
+    font-weight: 600;
+}
+
+body {
+    position: relative;
+    background-color: #dedede;
+}
+
+.nav {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    background: url(images/bird.png) #333333 no-repeat 50px 5px;
+}
+
+.nav a {
+    display: inline-block;
+    position: absolute;
+    line-height: 50px;
+    background: url(images/point.png) no-repeat 5px 15px;
+    text-indent: 2em;
+    background-size: 15px;
+    font-size: 14px;
+}
+
+.nav a:link,
+.nav a:visited {
+    color: #f0f0eb;
+}
+
+.nav a:first-child {
+    left: 1000px;
+}
+
+.nav a:nth-child(2) {
+    left: 1120px;
+}
+
+.nav a:nth-child(3) {
+    left: 1240px;
+}
+
+.nav a:last-child {
+    left: 1360px;
+    color: #94959c;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.one {
+    position: fixed;
+    width: 400px;
+    height: 500px;
+    background-color: #fff;
+    top: 70px;
+    right: 20px;
+    padding: 0 25px;
+}
+
+.one table tr:nth-child(2) td:nth-child(2) {
+    display: inline-block;
+    font-size: 10px;
+    color: gray;
+    margin: 8px 0 20px 10px;
+}
+
+.one table tr:nth-child(5) td:nth-child(2) {
+    display: inline-block;
+    font-size: 10px;
+    color: gray;
+    margin: 8px 0 20px 10px;
+}
+
+.one table tr td:first-child {
+    text-align: right;
+}
+
+.one table tr td:last-child {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.one input[type="submit"] {
+    display: block;
+    width: 290px;
+    height: 45px;
+    background-color: #3255d0;
+    border-radius: 10px;
+    color: #fff;
+    line-height: 45px;
+}
+
+.one input[type="submit"]:hover {
+    cursor: pointer;
+}
+
+.box {
+    width: 1050px;
+    padding: 30px 15px;
+    margin: 20px 20px;
+    background-color: #fff;
+}
+
+.two h2:nth-child(2) {
+    font-weight: 400;
+}
+
+.two p:nth-child(3) {
+    font-size: 12px;
+    margin: 10px 0;
+    text-indent: 0;
+}
+
+p {
+    text-indent: 2em;
+    line-height: 25px;
+}
+
+.three h2:nth-child(2) {
+    font-weight: 400;
+}
+
+.three p:nth-child(3) {
+    font-size: 12px;
+    margin: 10px 0;
+    text-indent: 0;
+}
+
+.grid {
+    display: grid;
+    grid-template-rows: repeat(2, 150px);
+    grid-template-columns: repeat(5, 150px);
+    grid-gap: 25px;
+    background-color: #fff;
+    margin-left: 15px;
+}
+
+.grid-item {
+    background: url(images/pic.png) no-repeat 10px 40px;
+    background-size: 130px 100px;
+    padding-top: 10px;
+    text-align: center;
+    border: 1px solid rgb(192, 189, 189);
+}
+
+.five h2:nth-child(2) {
+    font-weight: 400;
+}
+
+.five p:nth-child(3) {
+    font-size: 12px;
+    margin: 10px 0;
+    text-indent: 0;
+}
+
+.five table {
+    margin-top: 20px;
+}
+
+.five table a {
+    text-decoration: underline;
+}

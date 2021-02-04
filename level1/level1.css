@@ -1,0 +1,132 @@
+.box {
+    position: relative;
+    width: 600px;
+    height: 430px;
+    left: 50%;
+    top: 50px;
+    margin-left: -300px;
+    padding-left: 23px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 16px;
+}
+
+.box .one a:first-child {
+    display: inline-block;
+    width: 90px;
+    height: 40px;
+    color: #1ebaf3;
+    line-height: 40px;
+    margin-top: 35px;
+}
+
+.box .one a:last-child {
+    display: inline-block;
+    width: 90px;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 35px;
+    margin-left: -5px;
+    color: black;
+}
+
+.box .one a:hover {
+    color: #1ebaf3;
+}
+
+input[placeholder] {
+    display: block;
+    width: 500px;
+    height: 45px;
+    border: #dad8d8 1px solid;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    padding-left: 10px;
+}
+
+.box .three {
+    margin-bottom: 10px;
+}
+
+.box .three :nth-child(2) {
+    margin-left: 8px;
+    margin-right: 8px;
+    cursor: default;
+}
+
+.box .three :nth-child(3) {
+    color: #c2bec2;
+    margin-right: 35px;
+    cursor: default;
+}
+
+.box .three a {
+    color: #30b2dd;
+}
+
+.box .three a:hover {
+    text-decoration: underline;
+}
+
+.box .four {
+    margin-bottom: 5px;
+}
+
+.box .four input[type="submit"] {
+    width: 220px;
+    height: 50px;
+    border: #dad8d8 1px solid;
+    border-radius: 3px;
+}
+
+.box .four input:hover {
+    cursor: pointer;
+}
+
+.box .four input:first-child {
+    background-color: #00a7de;
+    margin-right: 50px;
+    border: 1px solid #00a7de;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.box .four input:last-child {
+    background-color: #fff;
+    border: 1px solid #dfdfdf;
+    font-size: 20px;
+    color: gray;
+    font-weight: 300;
+}
+
+.box .five a {
+    display: inline-block;
+    width: 165px;
+    height: 40px;
+    line-height: 40px;
+    padding: 0 25px;
+    color: rgb(121, 120, 120);
+}
+
+.box .five a:hover {
+    text-decoration: underline;
+}
+
+.box .five a:first-child {
+    background: url(images/微博.png) no-repeat 0 10px;
+    background-size: 20px 20px;
+}
+
+.box .five a:last-child {
+    background: url(images/QQ.png) no-repeat 0 10px;
+    background-size: 20px 20px;
+}
